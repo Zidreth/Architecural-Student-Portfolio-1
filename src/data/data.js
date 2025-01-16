@@ -1,13 +1,13 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "John Doe",
+    name: "Daniel Snell",
     bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
     contact: {
-        email: "john.doe@gmail.com",
-        phone: "+12345678910",
+        email: "daniel.snell@ucalgary.ca",
+        phone: "403-680-6474",
         linkedin: "https://www.linkedin.com/",
-        github: "https://www.github.com/",
+        github: "https://www.github.com/Zidreth",
     }
 }
 
