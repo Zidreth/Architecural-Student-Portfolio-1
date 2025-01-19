@@ -10,6 +10,13 @@ const cubes = [
   './cubeDrawings/cube4.webp',
 ];
 
+const houses = [
+  './houseDrawings/house1.jpg',
+  './houseDrawings/house2.jpg',
+  './houseDrawings/house3.jpg',
+  './houseDrawings/house4.jpg',
+];
+
 
 document.querySelector('#app').innerHTML = `
   <main id="container">
@@ -60,12 +67,11 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div id="images">
           <div>
-            ${[
-    './cubeDrawings/cube1.webp',
-    './cubeDrawings/cube2.webp',
-    './cubeDrawings/cube3.webp',
-    './cubeDrawings/cube4.webp',
-  ].map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
+            ${houses 
+              .map((house, index) =>
+                 `<img src="${house}" alt="house${index + 1}" />`
+            )
+            .join('')}
           </div>
         </div>
       </div>
