@@ -2,7 +2,7 @@
 
 const data = {
     name: "Daniel Snell",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    bio: "University of Calgary SAPL, Bachelor of Design in City Innovation. Passion in creating diverse, sustainable designs.",
     contact: {
         email: "daniel.snell@ucalgary.ca",
         phone: "403-680-6474",

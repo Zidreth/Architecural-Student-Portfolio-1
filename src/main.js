@@ -2,12 +2,14 @@ import './style.css';
 import data from './data/data';
 import { createThreeScene } from './threeScene';
 
+
 const cubes = [
   './cubeDrawings/cube1.webp',
   './cubeDrawings/cube2.webp',
   './cubeDrawings/cube3.webp',
   './cubeDrawings/cube4.webp',
 ];
+
 
 document.querySelector('#app').innerHTML = `
   <main id="container">
@@ -17,38 +19,53 @@ document.querySelector('#app').innerHTML = `
     </section>
 
     <section id="projects">
-      // Model 1
+       Cadavre Exquis
       <div id="project-row">
         <div class="three-model">
           <div id="model1"></div>
         </div>
         <div id="images">
           <div>
-            ${cubes.map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
+            ${[
+    './cubeDrawings/cube1.webp',
+    './cubeDrawings/cube2.webp',
+    './cubeDrawings/cube3.webp',
+    './cubeDrawings/cube4.webp',
+  ].map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
           </div>
         </div>
       </div>
 
-      // Model 2
+      Assignment 2
       <div id="project-row">
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images">
           <div>
-            ${cubes.map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
+            ${[
+    './cubeDrawings/cube1.webp',
+    './cubeDrawings/cube2.webp',
+    './cubeDrawings/cube3.webp',
+    './cubeDrawings/cube4.webp',
+  ].map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
           </div>
         </div>
       </div>
 
-      // Model 3
+      Assignment 3
       <div id="project-row">
         <div class="three-model">
           <div id="model3"></div>
         </div>
         <div id="images">
           <div>
-            ${cubes.map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
+            ${[
+    './cubeDrawings/cube1.webp',
+    './cubeDrawings/cube2.webp',
+    './cubeDrawings/cube3.webp',
+    './cubeDrawings/cube4.webp',
+  ].map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
           </div>
         </div>
       </div>
