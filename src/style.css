@@ -4,7 +4,7 @@
   line-height: 1.3;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #202626;
+  background-color: #222525;
 }
 
 * {
@@ -37,20 +37,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #1e1d1d;
-  color: white;
+  background-color: #d9e0e1;
+  color: rgb(0, 0, 0);
   z-index: 10;
 }
 
 a {
   /* Link styling */
-  color: #8da3eb;
+  color: #6076c0;
   text-decoration: none;
 }
 
 a:hover {
   /* Link hover effects */
-  color: #4c6aca;
+  color: #1d284e;
   text-decoration: underline;
   transition: 0.2s;
 }
@@ -103,6 +103,7 @@ img {
   height: 120px;
   width: 150px;
   margin: 0.5em;
+
 }
 
 #images {
@@ -127,29 +128,3 @@ img {
     margin: 5px 0;
   }
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Position Readonly Textbox</title>
-    <style>
-        .readonly-text {
-            width: 300px;
-            height: 50px;
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: #f9f9f9;
-            margin-top: 100px;  /* Move 50px down from the top */
-            margin-left: 100px;  /* Move 100px to the right */
-        }
-    </style>
-</head>
-<body>
-
-    <div class="readonly-text">
-        This is a readonly text box.
-    </div>
-
-</body>
-</html>

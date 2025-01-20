@@ -34,10 +34,11 @@ document.querySelector('#app').innerHTML = `
         <div id="images">
           <div>
             ${[
-    './cubeDrawings/cube1.webp',
-    './cubeDrawings/cube2.webp',
-    './cubeDrawings/cube3.webp',
-    './cubeDrawings/cube4.webp',
+    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var1.jpg',
+    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var2.jpg',
+    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var3.jpg',
+    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var4.jpg',
+    
   ].map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
           </div>
         </div>

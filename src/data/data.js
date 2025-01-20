@@ -2,7 +2,7 @@
 
 const data = {
     name: "Daniel Snell",
-    bio: "University of Calgary SAPL, Bachelor of Design in City Innovation. Passion in creating diverse, sustainable designs.",
+    bio: "Design Portfolio",
     contact: {
         email: "daniel.snell@ucalgary.ca",
         phone: "403-680-6474",
