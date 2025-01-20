@@ -29,17 +29,24 @@ document.querySelector('#app').innerHTML = `
        Cadavre Exquis
       <div id="project-row">
         <div class="three-model">
+        <a href="./houseDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Main.jpg" target="_blank">
           <img src="./houseDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Main.jpg" id="model1" alt="Model 1 Image" />
+          </a>
         </div>
         <div id="images">
           <div>
-            ${[
-    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var1.jpg',
-    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var2.jpg',
-    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var3.jpg',
-    './cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var4.jpg',
-    
-  ].map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
+             <a href="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var1.jpg" target="_blank">
+    <img src="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var1.jpg" alt="cube1" />
+  </a>
+  <a href="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var2.jpg" target="_blank">
+    <img src="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var2.jpg" alt="cube2" />
+  </a>
+  <a href="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var3.jpg" target="_blank">
+    <img src="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var3.jpg" alt="cube3" />
+  </a>
+  <a href="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var4.jpg" target="_blank">
+    <img src="./cubeDrawings/Snell_Daniel_30160814_DSGN313_CadavreExquis_Var4.jpg" alt="cube4" />
+  </a>
           </div>
         </div>
       </div>
