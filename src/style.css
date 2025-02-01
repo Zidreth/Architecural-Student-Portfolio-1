@@ -37,7 +37,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #d9e0e1;
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
   z-index: 10;
 }
@@ -62,6 +62,10 @@ a:hover {
   margin: 2cap;
   justify-content: center;
   align-items: center;
+  margin-top: -20px
+ 
+  
+
 }
 
 h1 {
@@ -128,3 +132,96 @@ img {
     margin: 5px 0;
   }
 }
+body.page1 {
+    min-height: 150vh; /* Makes the home page 150% of the viewport height */
+}
+
+/* For Page 1 */
+body.MainPage {
+    min-height: 180vh; /* Makes Page 1 120% of the viewport height */
+}
+
+/* For Page 2 */
+body.page2 {
+    min-height: 180vh; /* Makes Page 2 180% of the viewport height */
+}
+
+/* Image 1: Positioned in the top-left corner */
+.image1 {
+  position: absolute;
+  top: 50px;   /* 50px from the top of the body */
+  left: 50px;  /* 50px from the left of the body */
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Image 2: Positioned 100px from the top and 400px from the left */
+.image2 {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+body {
+  position: relative;  /* Ensure the body acts as the reference for absolute positioning */
+}
+
+
+.MainPage {
+  position: absolute;
+  top: 15px;
+  left: 300px;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*HEADER OF MAIN PAGE*/
+.Page1 {
+  position: absolute;
+  top: 15px;   /* 50px from the top of the body */
+  left: 425px;  /* 50px from the left of the body */
+  width: 300px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Page2 {
+  position: absolute;
+  top: 15px;
+  left: 750px;
+  width: 300px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.Page3 {
+  position: absolute;
+  top: 15px;
+  left: 1075px;
+  width: 300px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.readonly-text2 {
+  width: 300px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 10px;
+  background-color: #2b2b2b00;
+  margin-top: 15px;  /* Move 50px down from the top */
+  margin-left: 1325px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0
+  
+}
+
