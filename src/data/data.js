@@ -1,8 +1,8 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "Daniel Snell",
-    bio: "Design Portfolio",
+    name: "",
+    bio: "",
     contact: {
         email: "daniel.snell@ucalgary.ca",
         phone: "403-680-6474",

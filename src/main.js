@@ -51,41 +51,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
 
-      ${/* Model 2 Commented out}
-      Assignment 2
-      <div id="project-row">
-        <div class="three-model">
-          <div id="model2"></div>
-        </div>
-        <div id="images">
-          <div>
-            ${[
-    './cubeDrawings/cube1.webp',
-    './cubeDrawings/cube2.webp',
-    './cubeDrawings/cube3.webp',
-    './cubeDrawings/cube4.webp',
-  ].map((cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`).join('')}
-          </div>
-        </div>
-      </div>
-*/ ""}
-
-      ${/*Assignment 3
-      <div id="project-row">
-        <div class="three-model">
-          <div id="model3"></div>
-        </div>
-        <div id="images">
-          <div>
-            ${houses 
-              .map((house, index) =>
-                 `<img src="${house}" alt="house${index + 1}" />`
-            )
-            .join('')}
-          </div>
-        </div>
-      </div>
-      */ ""}
+   
     </section>
 
     <ul id="footer-items">
