@@ -143,7 +143,7 @@ body.MainPage {
 
 /* For Page 2 */
 body.page2 {
-    min-height: 180vh; /* Makes Page 2 180% of the viewport height */
+    min-height: 350vh; /* Makes Page 2 180% of the viewport height */
 }
 body.page3 {
   min-height: 180vh; /* Makes Page 2 180% of the viewport height */
@@ -259,4 +259,87 @@ body {
   text-align: left
   
 }
-
+.Pavillion {
+  position: absolute;
+  top: 300px;
+  left: 350px;
+  width: 900px;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.Torus {
+  position: absolute;
+  top: 650px;
+  left: 350px;
+  width: 900px;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.Character {
+  position: absolute;
+  top: 1000px;
+  left: 350px;
+  width: 900px;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.Print {
+  position: absolute;
+  top: 275px;
+  left: 30px;
+  width: 600px;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.Interoperability {
+  width: 300px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: -25px;  /* Move 50px down from the top */
+  margin-left: 625px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:cursive;
+  font-size: 48px;
+  text-align: left
+  
+}
+.Print3D {
+  width: 300px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: 60px;  /* Move 50px down from the top */
+  margin-left: 90px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:cursive;
+  font-size: 24px;
+  text-align: left
+  
+}
+.Charts {
+  width: 500px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: -82px;  /* Move 50px down from the top */
+  margin-left: 700px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:cursive;
+  font-size: 24px;
+  text-align: left
+  
+}
