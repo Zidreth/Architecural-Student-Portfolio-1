@@ -1,6 +1,6 @@
 :root {
   /* Global font, line-height, and colors */
-  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;
   line-height: 1.3;
   font-weight: bold;
   color: rgba(251, 243, 255, 0.87);
@@ -254,14 +254,14 @@ body {
   position: relative;
   text-align: right;
   top: 0;
-  font-family:cursive;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
   font-size: 14px;
   text-align: left
   
 }
 .Pavillion {
   position: absolute;
-  top: 300px;
+  top: 275px;
   left: 350px;
   width: 900px;
   height: auto;
@@ -270,7 +270,7 @@ body {
 }
 .Torus {
   position: absolute;
-  top: 650px;
+  top: 625px;
   left: 350px;
   width: 900px;
   height: auto;
@@ -279,7 +279,7 @@ body {
 }
 .Character {
   position: absolute;
-  top: 1000px;
+  top: 975px;
   left: 350px;
   width: 900px;
   height: auto;
@@ -288,7 +288,7 @@ body {
 }
 .Print {
   position: absolute;
-  top: 275px;
+  top: 250px;
   left: 30px;
   width: 600px;
   height: auto;
@@ -306,7 +306,7 @@ body {
   position: relative;
   text-align: right;
   top: 0;
-  font-family:cursive;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
   font-size: 48px;
   text-align: left
   
@@ -322,7 +322,7 @@ body {
   position: relative;
   text-align: right;
   top: 0;
-  font-family:cursive;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
   font-size: 24px;
   text-align: left
   
@@ -338,7 +338,7 @@ body {
   position: relative;
   text-align: right;
   top: 0;
-  font-family:cursive;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
   font-size: 24px;
   text-align: left
   
