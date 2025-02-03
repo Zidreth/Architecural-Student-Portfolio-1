@@ -295,6 +295,24 @@ body {
   border-radius: 0px;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
 }
+.PaperModels {
+  position: absolute;
+  top: 1400px;
+  left: 70px;
+  width: 570px;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.Photogrammetry {
+  position: absolute;
+  top: 910px;
+  left: 25px;
+  width: 620px;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
 .Interoperability {
   width: 300px;
   height: 80px;
@@ -318,7 +336,23 @@ body {
   padding: 5px;
   background-color: #2b2b2b00;
   margin-top: 60px;  /* Move 50px down from the top */
-  margin-left: 90px;  /* Move 100px to the right */
+  margin-left: 105px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
+  font-size: 24px;
+  text-align: left
+  
+}
+.ReflectionText {
+  width: 300px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: 325px;  /* Move 50px down from the top */
+  margin-left: 105px;  /* Move 100px to the right */
   position: relative;
   text-align: right;
   top: 0;
@@ -349,13 +383,61 @@ body {
   border: 0px solid #000000;
   padding: 5px;
   background-color: #2b2b2b00;
-  margin-top: -1475px;  /* Move 50px down from the top */
+  margin-top: -1680px;  /* Move 50px down from the top */
   margin-left: 110px;  /* Move 100px to the right */
   position: relative;
   text-align: right;
   top: 0;
   font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
   font-size: 24px;
+  text-align: left
+  
+}
+.PhotogrammetryScan {
+  width: 500px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: 360px;  /* Move 50px down from the top */
+  margin-left: 105px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
+  font-size: 24px;
+  text-align: left
+  
+}
+.ModelPaper {
+  width: 500px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: 410px;  /* Move 50px down from the top */
+  margin-left: 105px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
+  font-size: 24px;
+  text-align: left
+  
+}
+.Copy {
+  width: 500px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: 270px;  /* Move 50px down from the top */
+  margin-left: 710px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
+  font-size: 10px;
   text-align: left
   
 }
