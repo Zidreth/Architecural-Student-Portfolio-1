@@ -402,7 +402,7 @@
 
         // Load the .obj model
         const loader = new THREE.OBJLoader();
-        loader.load('Models/DSGN313HL.obj', function (object) {
+        loader.load('/Models/DSGN313HL.obj', function (object) {
             object.position.set(-2.5, -1.7, 11.3); // Position the object at the center
             scene.add(object);
         });
