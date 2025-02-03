@@ -143,7 +143,7 @@ body.MainPage {
 
 /* For Page 2 */
 body.page2 {
-    min-height: 350vh; /* Makes Page 2 180% of the viewport height */
+    min-height: 400vh; /* Makes Page 2 180% of the viewport height */
 }
 body.page3 {
   min-height: 180vh; /* Makes Page 2 180% of the viewport height */
@@ -265,7 +265,7 @@ body {
   left: 350px;
   width: 900px;
   height: auto;
-  border-radius: 0px;
+  border-radius: 5px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 .Torus {
@@ -274,7 +274,7 @@ body {
   left: 350px;
   width: 900px;
   height: auto;
-  border-radius: 0px;
+  border-radius: 5px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 .Character {
@@ -283,13 +283,13 @@ body {
   left: 350px;
   width: 900px;
   height: auto;
-  border-radius: 0px;
+  border-radius: 5px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 .Print {
   position: absolute;
   top: 250px;
-  left: 30px;
+  left: 40px;
   width: 600px;
   height: auto;
   border-radius: 0px;
@@ -335,6 +335,22 @@ body {
   background-color: #2b2b2b00;
   margin-top: -82px;  /* Move 50px down from the top */
   margin-left: 700px;  /* Move 100px to the right */
+  position: relative;
+  text-align: right;
+  top: 0;
+  font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;;
+  font-size: 24px;
+  text-align: left
+  
+}
+.Viewer {
+  width: 500px;
+  height: 80px;
+  border: 0px solid #000000;
+  padding: 5px;
+  background-color: #2b2b2b00;
+  margin-top: -1475px;  /* Move 50px down from the top */
+  margin-left: 110px;  /* Move 100px to the right */
   position: relative;
   text-align: right;
   top: 0;

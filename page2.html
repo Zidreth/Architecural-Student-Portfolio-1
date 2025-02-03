@@ -153,7 +153,7 @@
   color:#f9ffa8
   
 }
-        
+    
     </style>
 <ul id="footer-items">
     <li>Email: daniel.snell@ucalgary.ca</li>
@@ -201,6 +201,7 @@
     
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -300,13 +301,13 @@
         }
 
         .Reflection {
-            width: 600px;
+            width: 548px;
             height: 450px;
             border: 0px solid #000000;
             padding: 0px;
             background-color: #3c3440;
             margin-top: 1400px;  /* Move 50px down from the top */
-            margin-left: 25px;  /* Move 100px to the right */
+            margin-left: 111px;  /* Move 100px to the right */
             color: #cfcfcf;
             text-align: center;
             font-family:"Palatino Linotype", Palatino, "Book Antiqua", serif;
@@ -331,3 +332,121 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Object Viewer</title>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <style>
+        /* General body styles */
+        body {
+            margin: 0;
+        
+            font-family: Arial, sans-serif; /* Default font for text */
+        }
+
+        /* The container for the canvas */
+        #canvas-container {
+            width: 550px;   /* Set fixed width for the canvas container */
+            height: 400px;  /* Set fixed height for the canvas container */
+            position: absolute; /* Position it relative to the body */
+            top: 50%;  /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust for perfect centering */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000; /* Optional background color to visualize the container */
+            overflow: hidden;
+            margin-left: -440px;
+            margin-top: -440px /* Prevent any content overflow */
+        }
+
+        /* Styling only for the canvas element inside the container */
+        #canvas-container canvas {
+            border: 0px solid #ffffff;  /* Optional border for the canvas */
+        }
+
+        /* Optional: Adding some styling for the rest of the page elements */
+        h1, p {
+            text-align: center; /* Center text for page content */
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Create a div container for the canvas -->
+    <div id="canvas-container"></div>
+
+    <script>
+ 
+
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, 600 / 400, 0.1, 1000); // Match the aspect ratio to the container size
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(600, 400); // Set the canvas size to 600x400 (based on container size)
+        document.getElementById('canvas-container').appendChild(renderer.domElement); // Append the canvas to the container
+
+        // Add lighting
+        const light = new THREE.AmbientLight(0x404040, 1.5); // Ambient light
+        scene.add(light);
+
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+        directionalLight.position.set(5, 5, 5).normalize();
+        scene.add(directionalLight);
+
+        // Load the .obj model
+        const loader = new THREE.OBJLoader();
+        loader.load('Models/DSGN313HL.obj', function (object) {
+            object.position.set(-2.5, -1.7, 11.3); // Position the object at the center
+            scene.add(object);
+        });
+
+        // Set the camera position
+        camera.position.set(0.9, 1.6, 0);
+
+        // Add OrbitControls to allow user to move the camera
+        const controls = new THREE.OrbitControls(camera, renderer.domElement); // This makes the camera interactive
+
+        // Animation loop (no automatic rotation, just rendering)
+        function animate() {
+            requestAnimationFrame(animate);
+
+            // Update controls to handle user input
+            controls.update(); // Only needed if controls.enableDamping or controls.auto-rotate are enabled
+
+            // Render the scene from the camera's perspective
+            renderer.render(scene, camera);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Readonly Text</title>
+</head>
+<body>
+
+    <div class="Viewer">
+    ~Object Viewer~
+    </div>
+    
+    
+   
+  
+    
+</body>
+</html>
+
+

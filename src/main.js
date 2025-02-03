@@ -67,6 +67,10 @@ document.querySelector('#app').innerHTML = `
 // createThreeScene('#model1', '/3DModels/project1/cube.obj');
 // createThreeScene('#model2', '/3DModels/project2/tree.obj');
 // createThreeScene('#model3', '/3DModels/project3/cottage.obj');
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(800, 600);  // Set the canvas size to 800px by 600px (adjust as needed)
+document.body.appendChild(renderer.domElement);
 
 
 

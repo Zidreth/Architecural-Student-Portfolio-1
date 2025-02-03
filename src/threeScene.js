@@ -93,3 +93,7 @@ export function createThreeScene(containerSelector, objPath) {
 
   return { scene, camera, renderer };
 }
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(800, 600);  // Set the canvas size to 800px by 600px (adjust as needed)
+document.body.appendChild(renderer.domElement);
